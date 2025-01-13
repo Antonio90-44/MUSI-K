@@ -1,0 +1,80 @@
+/*colors
+#227C9D- dark blue
+#17C3B2- blue cyan
+#FFCB77- yellow
+#FEF9EF- white
+#FE6D73- red
+
+
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background: #FEF9EF
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-color: #FEF9EF;
+    max-width: 900px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+header {
+    color: black;
+    text-align: center;
+    overflow: hidden;
+}
+
+header h1{
+    color: black;
+    font-size: 200%;
+    text-shadow: 2px 2px 2px #FE6D73;
+    margin-bottom: .5em;
+}
+header h2{
+
+    color: black;
+    font-size: 150%;
+
+}
+nav{
+    background: #FE6D73;
+    border-top:2px solid black;
+    border-bottom: 2px solid black;
+    padding: .5em 0;
+    font-size: 120%;
+}
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+nav ul li{
+    display: inline;
+    margin: 0 1em;
+}
+nav a{
+    font-size:120;
+    text-align: center;
+}
+nav a:link{
+	color: black;
+
+}
+
+nav a:visited{
+	color: grey;
+}
+nav a:hover, :focus{
+	color: grey;
+}
+
+img {
+    
+    max-width: 650px;
+}
